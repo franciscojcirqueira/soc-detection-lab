@@ -1,0 +1,19 @@
+SOC INVESTIGATION REPORT
+
+Data: 28/04/2026
+
+Resumo:
+Foi identificado um possível ataque de força bruta no servidor SSH.
+
+Detalhes:
+- IP suspeito: 192.168.1.10
+- Múltiplas tentativas de login falhadas
+- Uma tentativa bem-sucedida após várias falhas
+
+Conclusão:
+Indícios de ataque brute force com possível comprometimento.
+
+Ação recomendada:
+- Bloquear o IP
+- Alterar senha do usuário
+- Verificar acessos recentes
