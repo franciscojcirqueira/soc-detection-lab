@@ -23,7 +23,7 @@ Potential brute force attack with possible system compromise.
 - Password reset
 - Log review for lateral movement
 
-## 📁 Project Structure
+##  Project Structure
 auth.log → Raw authentication log data used for analysis
 analysis/investigation.txt → Incident investigation report
 analysis/commands_used.txt → Linux commands used during analysis
