@@ -1,16 +1,28 @@
-# SOC Detection Lab
+# 🚨 SOC Detection Lab - Brute Force Attack
 
-## Objetivo
-Simular a análise de logs para detectar ataque de força bruta.
+## 📌 Scenario
+A Linux server showed multiple failed SSH login attempts followed by a successful login.
 
-## Ferramentas
+## 🎯 Objective
+Identify signs of a brute force attack and analyze suspicious activity.
+
+## 🔍 Analysis Performed
+- Detected repeated failed login attempts
+- Identified suspicious IP: 192.168.1.10
+- Observed successful login after multiple failures
+
+## 🚨 Findings
+Potential brute force attack with possible system compromise.
+
+## 🛠️ Tools Used
 - Linux
 - grep
 
-## O que foi feito
-- Análise de logs SSH
-- Identificação de IP suspeito
-- Criação de relatório SOC
+## ✅ Response Actions
+- Recommended IP blocking
+- Password reset
+- Log review for lateral movement
 
-## Resultado
-Ataque identificado e documentado
+## 📁 Project Structure
+- logs/auth.log → raw log data
+- analysis/investigation.txt → SOC report
